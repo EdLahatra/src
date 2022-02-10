@@ -1,0 +1,45 @@
+.datetimeCss{
+    margin-bottom: 20px;
+}
+.datetimeCss .react-datepicker-wrapper {
+    display: block;
+}
+
+.datetimeCss input {
+    height: 50px;
+    width:100%;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 0 16px;
+    /* margin-left: 4px; */  
+}
+
+.noEditable input{
+    background-color: rgba(240, 244, 248, 0.87);
+}
+.datetimeLabel {
+    font-size: 11px;
+    color: rgb(29, 92, 66);
+    font-family: " Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 0;
+    display: block;
+    height: 18px;
+    line-height: 15px;
+}
+
+.inputError .react-datepicker-wrapper {
+    display: block;
+}
+
+.inputError input {
+    height: 50px;
+    width: calc(100% - 60px);
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 30px;
+    padding: 0 30px;
+    
+}
